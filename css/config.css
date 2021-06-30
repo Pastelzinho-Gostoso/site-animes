@@ -184,9 +184,10 @@ nav a:hover {
 		width: 100%
 	}
 	.paiFooter {
-		height: 150px;
+		height: 153px;
 	}
 	.caixaFooter, .caixaCopyright {
+		padding: 5px 0 0 5px;
 		width: 250px;
 		flex-direction: column;
 	}
