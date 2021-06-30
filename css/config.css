@@ -184,10 +184,12 @@ nav a:hover {
 	.caixaPrincipal, .caixa {
 		width: 100%
 	}
-	.caixaFooter {
-		width: 100%;
+	.paiFooter {
+		height: 150px;
+	}
+	.caixaFooter, .caixaCopyright {
+		width: 250px;
 		flex-direction: column;
-		height: 100px;
 	}
 	main .caixaSobre {
 		width: 100%;
