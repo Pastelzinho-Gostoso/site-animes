@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width">
+			<link rel="stylesheet" href="css/reset.css">
+			<link rel="stylesheet" href="css/config.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+			<title>5 animes em alta - 2021 - Pastel-Productions</title>
+			<style>
+			header {
+				margin: 0;
+			}
+			h3 {
+				font-size: 20px;
+				color: white;
+				background: black;
+				text-align: center;
+				padding-top: 5px;
+				padding-bottom: 3px;
+				border-radius: 10px 10px 0 0;
+			}
+			.imagens img {
+				width: 220px;
+				height: 300px;
+				border-radius: 0 0 10px 10px;
+				transition: 0.25s box-shadow;
+				
+			}
+			div {
+				width: 220px;
+				margin-top: 50px;
+			}
+			
+			.imagens {
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				width: 800px;
+				height: 750px;
+				margin: 0 auto;
+			}
+			.sombra {
+				height: 325px;
+				border-radius: 10px;
+				transition: 0.30s box-shadow;
+				margin-top: 0;
+			}
+			.sombra:hover {
+
+				box-shadow: 0 6px 10px #000000;
+			}
+			</style>
+		</head>
+		<body>
+			<header>
+				<nav>
+					<h1><a href="pags/sobre.html">Sobre o Site</a></h1>
+				</nav>
+			</header>
+			
+			<main>
+				<img class="sobe" src="imagens/seta.png">
+				<section class="caixaPrincipal">
+					<h1>Não tem ideia de qual anime assistir?<br>Você está no site certo!</h1>
+					<p>Separamos uma lista de 5 animes que estão em alta em 2021. Basta clicar no de seu interesse, que você ira receber informações tentadoras para assistir esses incriveis animes!</p>
+				</section>
+
+				<div class="imagens">
+				
+					<div class="sombra">
+						<h3>One piece</h3>
+						<a href="pags/pag1.html"><img src="https://www.animesgratisbr.biz/wp-content/uploads/2018/06/one-piece-poster-2-min.jpg"></a>
+					</div>
+					<div class="sombra">
+						<h3>Jujutsu Kaisen</h3>
+						<a href="pags/pag2.html"><img src="https://i.imgur.com/xXYBW4J.png"></a>
+					</div>
+					<div class="sombra">
+						<h3>Boruto</h3>
+						<a href="pags/pag3.html"><img src="https://img.assinaja.com/assets/tZ/004/img/246982_520x520.jpg"></a>
+					</div>
+					<div class="sombra">
+						<h3>Black Clover</h3>
+						<a href="pags/pag4.html"><img src="https://www.keroseed.com/wp-content/uploads/Black-Clover-2021-200x300.jpg"></a>
+					</div>
+					<div class="sombra">
+						<h3>Attack on Titan</h3>
+						<a href="pags/pag5.html"><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/51/Shingeki_no_Kyojin_1%C2%AA_temporada.jpg/230px-Shingeki_no_Kyojin_1%C2%AA_temporada.jpg"></a>
+					</div>
+
+				</div>
+				<section class="caixaPrincipal">
+					<h1>Se divirta!</h1>
+					<p>Tenha uma boa jornada no mundo dos animes!</p>
+				</section>
+			</main>
+			<footer>
+				<div class="caixaFooter">
+					<h5>Uma parceria com : </h5>
+					<a href="https://www.alura.com.br/" target="_blank"><img src="imagens/alura.svg" class="imgAlura"></a>
+				</div>
+			</footer>
+		</body>
+		<script>
+			var sobe = document.querySelector(".sobe");
+			function topo() {
+				window.scrollTo(0, 0);
+			}
+			sobe.onclick = topo;
+		</script>
+	</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width">
+			<link rel="stylesheet" href="../css/reset.css">
+			<link rel="stylesheet" href="../css/config.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+			<title>Sobre o Site - Pastel-Productions</title>
+			<style>
+				em {
+					color: #17a958;
+				}
+				.caixaSobre p {
+					margin-bottom: 2em;
+					font-size: 22px;
+				}
+				h2 {
+					font-size: 30px;
+				}
+				.caixaSobre {
+					margin: 0 auto;
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					height: 350px;
+					width: 80%;
+					max-width: 1000px;
+				}
+				
+				div {
+					width: 30%;
+				}
+			</style>
+		</head>
+		<body>
+			<header>
+				<nav>
+					
+						<h1><a href="../index.html">Home</a><h1>
+					
+				</nav>
+			</header>
+			<main>
+				<img class="sobe" src="../imagens/seta.png">
+				<section class="caixaPrincipal">
+					<h1>Sobre o Site</h1>
+					<p>Esse site tem o intuíto de ajudar otakus perdidos no mundo dos animes. É uma sinopse de 5 animes que estão em alta em 2021.</p>
+				</section>
+				<section class="caixaSobre">
+					
+				<div>
+					<h2>Criadores:</h2>
+					<p><em>Felipe</em>, <em>Bianca</em>, <em>Clara</em>, <em>Gabriel</em>, <em>Gabrielly</em>, <em>Helen</em>, <em>Isabelle</em>, <em>Julia</em>, <em>Roberta</em>, <em>Eduardo</em>.
+					
+				</div>
+				<div>
+					<h2>Surgimento da ideia</h2>
+					<p>Esse site é fruto de um projeto ordenado pela professora <em>Jozane</em>. Depois de recorrentes reuniões, a ideia surgiu naturalmalmente, e nós do grupo 1, construímos esse belo site.</p>
+				</div>
+				<div>
+					<h2>Como o site funciona</h2>
+					<p>O site consiste em 5 imagens de animes em alta de 2021, que ao clicar redireciona a página dedicada a esse anime.</p>
+				</div>
+				</section>
+			</main>
+			<footer>
+				<div class="caixaFooter">
+					<h5>Uma parceria com : </h5>
+					<a href="https://www.alura.com.br/" target="_blank"><img src="../imagens/alura.svg" class="imgAlura"></a>
+				</div>
+			</footer>
+		</body>
+		<script>
+			var sobe = document.querySelector(".sobe");
+			function topo() {
+				window.scrollTo(0, 0);
+			}
+			sobe.onclick = topo;
+		</script>
+	</html>

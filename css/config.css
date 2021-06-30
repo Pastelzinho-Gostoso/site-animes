@@ -1,0 +1,213 @@
+html {
+ 	scroll-behavior: smooth;
+}
+.sobe {
+	width: 30px;
+	background: silver;	
+	padding: 15px 10px 15px 10px;
+	border-radius: 30px;
+	display: inline;
+	position: fixed;
+	right: 0;
+	top: 500px;
+	transition: background 0.25s;
+}
+.sobe:hover {
+	cursor: pointer;
+	background: white;
+}
+body {
+	background: #0f5bb3;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 13px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #1063c1;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #A9A9A9;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #1063c1;  /* creates padding around scroll thumb */
+}
+body::-webkit-scrollbar-thumb:hover {
+	background-color: white;
+}
+header {
+	background: url("https://i.pinimg.com/originals/1c/39/bc/1c39bca8538332f7e206732720148102.jpg");
+	padding: 25px;
+	margin-bottom: 100px;
+}
+footer {
+	background-image: url(../imagens/imagem-footer.png);
+	background-size: 100%;
+	padding: 50px;
+	margin-top: 100px;
+}
+footer img {
+	width: 75px;
+	height: 35px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+nav h1, nav a {
+	margin: 0;
+}
+h2 {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h5 {
+	font-size: 25px;
+	color: black;
+}
+p {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	line-height: 1.1em;
+	margin-bottom: 50px;
+}
+ul {
+	width: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav a {
+	font-size: 40px;
+	font-weight: bold;
+	color: silver;
+	text-decoration: none;
+	transition: color 0.5s, border 0.10s;
+}
+nav a:hover {
+	color: white;
+	border-bottom: 4px solid #ffbf00;
+}
+.caixaPrincipal, .caixa {
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.floatRight {
+	float: right;
+	margin: 0 0 10px 10px;
+	width: 184px;
+}
+.floatLeft {
+	float: left;
+	margin: 0 10px 10px 0;
+	width: 184px;
+}
+.inteiraLeft {
+	float: left;
+	width: 300px;
+	margin: 0 10px 10px 0;
+}
+.inteiraRight {
+	float: right;
+	width: 300px;
+	margin: 0 0 10px 10px;
+}
+.caixaFooter {
+	width: 325px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.caixaFooter a {
+	text-decoration: none;
+}
+.imgAlura {
+		padding: 5px;
+		border-radius: 15px;
+		background: white;
+}
+@media screen and (max-width: 768px) {
+	header {
+		padding: 50px 0;
+	}
+	footer {
+		padding: 25px 0;
+	}
+	p {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	li a {
+		font-size: 40px;
+	}
+	ul {
+		width: 100%;
+		flex-direction: column;
+		height: 100px;
+	}
+	li {
+		text-align: center;
+	}
+	.caixaPrincipal, .caixa {
+		width: 100%
+	}
+	footer {
+		background-size: initial;
+	}
+	.caixaFooter {
+		width: 100%;
+		flex-direction: column;
+		height: 100px;
+	}
+	main .caixaSobre {
+		width: 100%;
+		flex-direction: row;
+		height: 700px;
+	}
+	main .caixaSobre div {
+		width: 100%;
+	}
+	main .imagens img {
+		width: 150px;
+		height: 210px;
+	}
+	main .imagens h3 {
+		font-size: 15px;
+	}
+	main .imagens {
+		width: 100%;
+		height: auto;
+	}
+	main .imagens .sombra {
+		width: 150px;
+		height: 230px;
+		margin-top: 50px;
+	}
+	.floatRight {
+		width: 100px;
+	}
+	.floatLeft {
+		width: 100px;
+	}
+	.inteiraLeft {
+		width: 175px;
+	}
+	.inteiraRight {
+		width: 175px;
+	}
+	nav a {
+		border-bottom: 4px solid #ffbf00;
+	}
+}
