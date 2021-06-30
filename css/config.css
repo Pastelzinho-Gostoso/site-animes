@@ -165,6 +165,7 @@ nav a:hover {
 	}
 	footer {
 		background-size: initial;
+		background-position: center;
 	}
 	.caixaFooter {
 		width: 100%;
